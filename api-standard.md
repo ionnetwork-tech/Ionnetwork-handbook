@@ -143,3 +143,44 @@ Apabila dijumpai kondisi yang tidak diprediksi, silahkan menggunakan kembalian d
 ```
 
 dengan HTTP Status Code yang sesuai dengan situasi
+
+# CATATAN
+
+## DAFTAR STATUS CODE HTTP
+
+### 1XX - Informational Responses
+- `100 Continue`: Server telah menerima header request dan klien dapat melanjutkan mengirim body request
+- `101 Switching Protocols`: Server menyetujui pergantian protokol yang diminta klien
+- `102 Processing`: Server memproses request, mencegah timeout
+- `103 Early Hints`: Memberikan beberapa header sebelum respon final
+
+### 2XX - Successful Responses
+- `200 OK`: Request berhasil dan data dikembalikan dengan sukses
+- `201 Created`: Request berhasil dan sumber daya baru telah dibuat
+- `202 Accepted`: Request diterima untuk diproses, namun belum selesai
+- `204 No Content`: Request berhasil namun tidak ada konten untuk dikembalikan
+
+### 3XX - Redirection Responses
+- `301 Moved Permanently`: Sumber daya telah dipindahkan secara permanen ke URL baru
+- `302 Found`: Sumber daya sementara dialihkan ke URL lain
+- `304 Not Modified`: Sumber daya tidak dimodifikasi sejak permintaan terakhir
+- `307 Temporary Redirect`: Pengalihan sementara dengan metode HTTP yang sama
+- `308 Permanent Redirect`: Pengalihan permanen dengan metode HTTP yang sama
+
+### 4XX - Client Error Responses
+- `400 Bad Request`: Server tidak dapat memproses request karena kesalahan klien
+- `401 Unauthorized`: Autentikasi diperlukan atau kredensial tidak valid
+- `403 Forbidden`: Klien tidak memiliki izin untuk mengakses sumber daya
+- `404 Not Found`: Sumber daya yang diminta tidak dapat ditemukan
+- `405 Method Not Allowed`: Metode HTTP tidak diizinkan untuk sumber daya
+- `408 Request Timeout`: Server tidak menerima request sepenuhnya dalam waktu yang ditentukan
+- `422 Unprocessable Entity`: Request yang benar namun tidak dapat diproses karena kesalahan semantik
+- `429 Too Many Requests`: Klien telah mengirim terlalu banyak request dalam waktu tertentu
+
+### 5XX - Server Error Responses
+- `500 Internal Server Error`: Kesalahan umum pada server
+- `501 Not Implemented`: Fungsi yang diminta tidak didukung oleh server
+- `502 Bad Gateway`: Server gateway menerima respon tidak valid dari server hulu
+- `503 Service Unavailable`: Server sementara tidak dapat menangani request
+- `504 Gateway Timeout`: Server gateway tidak menerima respon tepat waktu dari server hulu
+- `505 HTTP Version Not Supported`: Versi HTTP tidak didukung oleh server
