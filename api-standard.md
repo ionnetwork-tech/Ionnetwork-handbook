@@ -1,6 +1,6 @@
 # ION NETWORK API STANDARD
 
-Seluruh deskripsi di bawah merupakan standar dari API yang dibuat oleh Ion Network dan telah melewati diskusi bersama.
+Seluruh deskripsi di bawah merupakan standar dari API yang dibuat oleh Ion Network.
 
 ## KETENTUAN UMUM
 * Menggunakan versi dalam URLnya | contohnya `http://example.com/api/android/v1` 
