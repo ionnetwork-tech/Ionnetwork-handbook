@@ -5,7 +5,7 @@ Bagian ini berisi mengenai panduan untuk membuat kode baik, penjelasan arsitektu
 
 ### Panduan *API*
 
-API di Flipbox dibuat menggunakan panduan yang ada di dalam dokumen [API Standard](https://github.com/ionnetwork-tech/Ionnetwork-handbook/blob/main/api-standard.md)
+API di Ion Network dibuat menggunakan panduan yang ada di dalam dokumen [API Standard](https://github.com/ionnetwork-tech/Ionnetwork-handbook/blob/main/api-standard.md)
 
 ---
 ### *Deployment Checklist*
