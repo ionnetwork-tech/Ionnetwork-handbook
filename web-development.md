@@ -5,33 +5,12 @@ Bagian ini berisi mengenai panduan untuk membuat kode baik, penjelasan arsitektu
 
 ### Panduan *API*
 
-API di Ion Network dibuat menggunakan panduan yang ada di dalam dokumen [API Standard](https://github.com/medigoid/tech-handbook/blob/develop/api-standard.md)
-
----
-#### Pustaka : Lumen Generator
-Lihat selengkapnya di [lumen-generator](https://github.com/medigoid/lumen-generator)
-#### Pustaka : Image Controller
-Lihat selengkapnya di [image-controller](https://github.com/medigoid/image-controller)
-
----
-### .NET Core Boilerplate
-
-Merupakan *starter* untuk pembuatan API yang dibuat menggunakan ASP.NET Core. Beberapa pustaka utama dan contoh penggunaannya sudah terkandung di dalam *starter* tersebut.
-
-Lihat deskripsi selengkapnya di [.NET Core Boilerplate](https://github.com/medigoid/boilerplate) dan [Panduan .NET Core](http://medigo.id/career/)
-
----
-### Progressive Vue
-
-Merupakan *starter* untuk pembuatan *Single Page Web Application* berbasis *VueJS* dan *Progressive Web App*. Beberapa pustaka utama dan contoh penggunaannya sudah terkandung di dalam *starter* tersebut.
-
-Lihat deskripsi selengkapnya di [Progressive Vue](https://github.com/medigoid/progressive-vue) dan [Panduan VueJS](http://medigo.id/career/)
+API di Flipbox dibuat menggunakan panduan yang ada di dalam dokumen [API Standard](https://github.com/ionnetwork-tech/Ionnetwork-handbook/blob/main/api-standard.md)
 
 ---
 ### *Deployment Checklist*
 
 - SSL sudah terpasang
-- API sudah melewati *integration test*
 - API sudah melewati *stress test*
 - Tidak ada variabel yang masih menggunakan `development environment`
 - API & server monitoring sudah terpasang
@@ -40,7 +19,6 @@ Lihat deskripsi selengkapnya di [Progressive Vue](https://github.com/medigoid/pr
 - Jangan lupa berdoa setelah berusaha
 
 ---
-Bacaan tambahan ( gunakan akun Ion Network untuk akses Udemy *course* ) :
+Bacaan tambahan
 
-- [ASP.NET MVC](https://www.udemy.com/the-complete-aspnet-mvc-5-course/learn/v4/overview)
 - [Understand TypeScript](https://www.udemy.com/understanding-typescript/learn/v4/overview)
